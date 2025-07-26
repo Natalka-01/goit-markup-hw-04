@@ -319,16 +319,43 @@ p {
         margin-bottom: 8px;
         
 }
-
-.socials-team-ul{
+.socials-team-ul {
     display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;
 }
 
+.socials-team-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials-team-link:hover {
+    background-color: #404bbf;
+}
+
+.socials-team-icon {
+    width: 16px;
+    height: 16px;
+    fill: white;
+}
+
+.team-position{
+    margin-bottom: 8px;
+}
 
 .team-position,
 .portfolio-text{
         line-height: 1.5;
         letter-spacing: 0.02em;
+        
 }
 
 .portfolio-ul{
