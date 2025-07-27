@@ -424,8 +424,9 @@ p.overlay{
     padding: 100px 0;
 }
 
-.footer-text{
+.footer-text {
     color: var(--footer-text-color);
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
@@ -465,12 +466,10 @@ p.overlay{
 .footer-social-title {
     color: var(--footer-text-color);
     font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     margin-bottom: 16px;
-            font-weight: 500;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: var(--cloud);
-            width: 264px;
 }
 
 .footer-social-list {
