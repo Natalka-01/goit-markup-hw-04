@@ -12,6 +12,7 @@
     --dairy: #fcfcfc;
     --icon-fill: #f4f4fd;
     --footer-icon-fill: #f4f4fd;
+    --footer-text-color: #ffffff;
 
 /* Card set */
     --items: 4;
@@ -424,7 +425,7 @@ p.overlay{
 }
 
 .footer-text{
-    color: var(--cloud);
+    color: var(--footer-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
